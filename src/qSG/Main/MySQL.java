@@ -16,18 +16,14 @@ public class MySQL {
 
 	private Connection conn;
 	private Main plugin;
-	public MySQL(Main plugin)
-	{
-		this.plugin = plugin;
-	}
 	private String hostname;
 	private String user;
 	private String password;
 	private String database;
 	private int port;
-	public MySQL() throws Exception
+	public MySQL(Main plugin) throws Exception
 	{
-		
+		this.plugin = plugin;
 		
 		this.hostname = plugin.getConfig().getString("host");
 		this.port = plugin.getConfig().getInt("port");
