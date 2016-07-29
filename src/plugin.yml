@@ -1,0 +1,20 @@
+main: qSG.Main.Main
+version: 1.0
+author: GoRoK
+name: QuickSurvivalGames
+commands:
+  setlobby:
+    usage: /<command>
+    description: Setzt die Lobby.
+  setspawn:
+    usage: /<command>
+    description: Setzt den Spawn 1 - 16.
+  setsspawn:
+    usage: /<command>
+    description: Setzt Spectatorspawn.
+  stats:
+    usage: /<command>
+    description: Bekomme deine Stats!
+  setdmspawn:
+    usage: /<command>
+    description: Setzt die Deathmatchspawns!
